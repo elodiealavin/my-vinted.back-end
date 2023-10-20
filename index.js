@@ -27,6 +27,10 @@ const User = mongoose.model("User", {
 
 module.exports = User; // j'exporte mon modèle
 
+app.get("/", (req, res) => {
+  res.json({ message: "Bienvenue" });
+});
+
 //Create
 app.post("/user/signup", async (req, res) => {
   //console.log(req.body.password);
