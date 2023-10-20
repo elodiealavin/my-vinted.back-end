@@ -108,8 +108,8 @@ app.post("/user/login", async (req, res) => {
 
 // poster une annonce ==>> avoir une reference vers l'utilisateur qui la poste + être authentifié
 // import dossier middlewares et converToBase64
-const convertToBase64 = require("../Vinted/utils/convertToBase64 ");
-const isAuthenticated = require("../Vinted/middlewares/isAuthenticated");
+const convertToBase64 = require("./utils/convertToBase64");
+const isAuthenticated = require("./middlewares/isAuthenticated");
 
 // Import de fileupload
 const fileUpload = require("express-fileupload");
