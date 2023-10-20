@@ -1,0 +1,30 @@
+//   const { title, description, price, condition, city, brand, size, color } = req.fields;
+//
+// Création d'un nouvelle offre avec les informations fournies par l'utilisateur
+//     const newOffer = new Offer({
+//       product_name: title,
+//       product_description: description,
+//       product_price: price,
+//       product_details: {
+//         brand,
+//         size,
+//         condition,
+//         color,
+//         city,
+//         //picture: resultPictureTemp.secure_url, // Url sécurisé de l'image uploadée
+//       },
+//       owner: req.user, // Propriétaire de l'offre (l'utilisateur authentifié)
+//     });
+
+// mon code
+
+// {title: newOffer.product_name,
+//       description: newOffer.product_description,
+//       details: [
+//         { MARQUE: newOffer.MARQUE },
+//         { TAILLE: newOffer.size },
+//         { ETAT: newOffer.condition },
+//         { COULEUR: newOffer.color },
+//         { EMPLACEMENT: newOffer.city },
+//       ],
+//       owner: newOffer.User}
